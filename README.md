@@ -1,7 +1,7 @@
 # findHash
 findhash for ARM64 (An IDA script that can detect hash algorithms such as MD5 or SHA)
 
-#### Improvements：
+## Improvements：
 
 1. **Support ARM64**
 2. **Support IDA7.0 - IDA9.1**
@@ -10,7 +10,7 @@ findhash for ARM64 (An IDA script that can detect hash algorithms such as MD5 or
 
 
 
-####  Installation：
+##  Installation：
 
 1. Copy 
 
@@ -29,7 +29,7 @@ findhash for ARM64 (An IDA script that can detect hash algorithms such as MD5 or
 
 
 
-#### Usage
+## Usage
 
 1. Load an ARM32 or ARM64 binary in IDA Pro
 2. Run the plugin:
@@ -43,9 +43,9 @@ findhash for ARM64 (An IDA script that can detect hash algorithms such as MD5 or
 
 
 
-#### Configuration
+## Configuration
 
-##### Add Custom Signatures
+#### Add Custom Signatures
 
 Edit `findHash.xml` to add custom hash algorithm signatures:
 
@@ -55,7 +55,7 @@ xml
 <p t="Your Algorithm Name [bits.size]">HEX_SIGNATURE</p>
 ```
 
-##### Modify Filtering Rules
+#### Modify Filtering Rules
 
 Edit blacklists in `findHash.py`:
 
