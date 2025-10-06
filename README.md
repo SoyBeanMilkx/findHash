@@ -1,5 +1,5 @@
 # findHash
-findhash for ARM64 (An IDA script that can detect hash algorithms such as MD5 or SHA)
+[findhash](https://github.com/Pr0214/findhash) for ARM64 (An IDA script that can detect hash algorithms such as MD5 or SHA)
 
 ## Improvements：
 
