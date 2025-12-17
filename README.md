@@ -4,7 +4,7 @@
 ## Improvements：
 
 1. **Support ARM64**
-2. **Support IDA7.0 - IDA9.1**
+2. **Support IDA7.0 - IDA9.2**
 3. **Intelligent False Positive Filtering**
 4. **Precise String Matching**
 
